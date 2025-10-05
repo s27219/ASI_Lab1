@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score
 # Generowanie prostego zbioru danych
 def generate_data():
     center1 = [0, 0]
-    center2 = [3, 3]
+    center2 = [5, 5]
 
     n1 = np.random.randint(50, 101)
     n2 = np.random.randint(50, 101)
